@@ -1,0 +1,7 @@
+# Mercurial .hgignore file
+
+glob:*.pyc
+glob:*.kpf
+relre:/obj
+relre:/bin
+

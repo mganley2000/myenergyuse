@@ -1,0 +1,63 @@
+/* myenergyuse */
+
+.nav-chart 
+{
+	margin:  5px 0px 0px 0px;
+	white-space: nowrap;
+}
+
+.nav-chart a
+{
+	font-size: 0.9em;
+	color:#0059C7;
+}	
+
+.nav-chart span.nav-chart-link
+{
+        margin: 0px 10px 0px 0px;
+	font-size:0.9em;
+	font-weight: lighter;
+	white-space: nowrap;
+}
+
+.nav-chart span.nav-chart-select
+{
+        margin: 0px 5px 0px 0px;
+	font-size:0.9em;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.nav-chart span.nav-chart-select A
+{
+	font-size:1.0em;
+	font-weight: bold;
+        text-decoration: none;
+	white-space: nowrap;
+}
+
+
+
+.nav-chart span.nav-size
+{
+        margin: 0px 0px 0px 20px;
+	font-size:0.75em;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+.nav-chart span.nav-size A
+{
+	font-size:1.0em;
+	font-weight: normal;
+        text-decoration: none;
+	white-space: nowrap;
+}
+
+.foot-jump A
+{
+	font-size:0.7em;
+	font-weight: normal;
+	white-space: nowrap;
+        margin-left: 5px;
+}

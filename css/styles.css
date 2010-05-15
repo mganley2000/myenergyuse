@@ -1,0 +1,286 @@
+body { font-family:Arial, Helvetica, sans-serif; color:#000; padding:0px; margin: 2px 2px 10px 2px; background-color: #ffffff; }
+
+#stats A:link {color: #0000FF}
+#stats A:visited {color: #0000FF}
+#stats A:hover {color: #CC0000}
+
+#normal .topBar { BACKGROUND-COLOR: #6699CC }
+#normal .tabOn { BACKGROUND-COLOR: #669999 }
+#normal .tabOff { BACKGROUND-COLOR: #bbbbbb }
+#normal .tabFontOn { FONT: bold .8em arial,helvetica,sans-serif; COLOR: #000000 }
+#normal .tabFontOff { FONT: .8em arial,helvetica,sans-serif; COLOR: #dddddd }
+#normal .tabPipe { COLOR: #dddddd }
+
+#normal A.tabFontOff:link { color: #dddddd }
+#normal A.tabFontOff:visited { color: #dddddd }
+#normal A.tabFontOff:hover { color: #CC0000 }
+#normal .subtabFontOn { FONT: bold .6em Arial,helvetica,sans-serif; COLOR: #000000 }
+#normal .subtabFontOff { FONT: .6em Arial,helvetica,sans-serif; COLOR: #000000 }
+#normal .headingFont { FONT: 1.0em arial,helvetica,sans-serif; COLOR: #000000 }
+#normal .headingFont2 { FONT: 1.1em Verdana,sans-serif; COLOR: #000000 }
+#normal .defaultFont { FONT: .8em Arial,helvetica,sans-serif; COLOR: #000000 }
+
+#normal A.defaultFont:link { color: #000000 }
+#normal A.defaultFont:visited { color: #000000 }
+#normal A.defaultFont:hover { color: #CC0000 }
+#normal .defaultFontBB { FONT: bold .8em Arial,helvetica,sans-serif; COLOR: #000000 }
+#normal .footerFont { FONT: .7em Arial,helvetica,sans-serif; COLOR: #000000 }
+
+#normal A.footerFont:link { color: #000000 }
+#normal A.footerFont:visited { color: #000000 }
+#normal A.footerFont:hover { color: #CC0000 }
+#normal .nineFont { FONT: .7em Arial,helvetica,sans-serif; COLOR: #000000 }
+#normal .defaultCourier { FONT: .8em Courier,sans-serif; COLOR: #000000 }
+#normal .defaultFontDisable { FONT: .8em Arial,helvetica,sans-serif; COLOR: #aaaaaa }
+#normal .mediumDisable { FONT: .7em Arial,helvetica,sans-serif; COLOR: #aaaaaa }
+#normal .mediumFont { FONT: .7em Arial,helvetica,sans-serif; COLOR: #000000 }
+
+
+
+#normal .smallFont { FONT: .55em Arial,helvetica,sans-serif; COLOR: #000000 }
+#normal .errorFont { FONT: .8em Arial,helvetica,sans-serif; COLOR: red }
+#normal .topFont { FONT: bold .7em Arial,helvetica,sans-serif; COLOR: black }
+#normal .rowForm { BACKGROUND-COLOR: #cccccc }
+#normal .rowTop { BACKGROUND-COLOR: #aaaaaa }
+#normal .rowGray { BACKGROUND-COLOR: #dddddd }
+#normal .rowWhite { BACKGROUND-COLOR: #ffffff }
+#normal .rowGreen { BACKGROUND-COLOR: #33cc99 }
+#normal .rowBlue { BACKGROUND-COLOR: #5A618C }
+#normal .rowRed { BACKGROUND-COLOR: #ff9999 }
+#normal .rowYellow { BACKGROUND-COLOR: #cccc99 }
+#normal .RedFont { FONT-WEIGHT: normal; FONT-SIZE: .8em; COLOR: red; FONT-FAMILY: Verdana }
+#normal .verBB7 { FONT: bold .6em Verdana,sans-serif; COLOR: #000000 }
+
+#normal A.verBB7:link { color: #000000 }
+#normal A.verBB7:visited { color: #000000 }
+#normal A.verBB7:hover { color: #CC0000 }
+
+#normal .verNB7 { FONT: .6em Verdana,sans-serif; COLOR: #000000 }
+#normal .verBB10 { FONT: bold .8em Verdana,sans-serif; COLOR: #000000 }
+#normal .verNB10 { FONT: .8em Verdana,sans-serif; COLOR: #000000 }
+#normal .BigRedFont { FONT: .8em Arial,helvetica,sans-serif; COLOR: red }
+
+/* updated 4-2008 */
+h1, h2, h3, h4, h5, h6 { font-size:100%; color:#008521; padding:0 0 2px 0; margin:0px; font-weight:normal; }
+h1 { font-size:130%; font-weight:bold; display:inline; position:absolute; top:30px; left:176px; color:#666; width:650px; }
+h2 {font-size: 24px; color: #009900;}
+h3 { font-size:0.9em; font-weight:bold; margin-bottom:1px; color:#52AA65; text-align: left; }
+h3 a { color:#52AA65; text-decoration:none; }
+h4 { font-size:0.9em; font-weight:bold; margin: 15px 0px 1px 0px; color:#52AA65; text-align: left; }
+p { line-height:120%; }
+.quote { padding:8px; font-size:80%; }
+a img { border:none; }
+
+.hit-corp { border: 0px;}
+.hit-logo { padding-left: 2px; padding-bottom: 5px; }
+.hit-layout td { padding:2px; vertical-align: top; }
+.hit-divider { border-bottom:1px solid #CCC; margin:0px 2px 5px 2px; }
+
+td#hit-a { padding-top: 5px;}
+td#hit-b { border-left:1px solid #E8E8E8; padding-top:5px; }
+td#hit-c { border-left:1px solid #E8E8E8; padding-top:5px; width: 180px; }
+.indent { margin-left:2em; }
+
+div.hit-space {
+	margin-top: 20px;
+	border-bottom: 1px dotted #BBB;
+}
+
+div.hit-space2 {
+	margin-top: 20px;
+}
+
+.hit-footer
+{
+	margin-top: 10px;
+}
+.hit-footer td 
+{
+	border-top:0px solid #CCC; 
+	margin: 0px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	text-align: center;
+	padding-top:0px; 
+}
+
+.hit-pipe
+{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+	
+.hit-nav 
+{
+	margin:  5px 0px 0px 0px;
+	white-space: nowrap;
+}
+
+.hit-nav a
+{
+	font-size: 0.9em;
+	color:#0059C7;
+}	
+
+.hit-navsel
+{
+	font-size:0.9em;
+	font-weight: bold;
+	white-space: nowrap;
+	margin-left: 10px;
+}
+
+.hit-navlink
+{
+	font-size:0.9em;
+	font-weight: normal;
+	white-space: nowrap;
+	margin-left: 10px;
+}
+
+.hit-navhome
+{
+	font-size:0.9em;
+	font-weight: normal;
+	white-space: nowrap;
+}
+
+.hit-navhomea
+{
+	font-size:0.9em;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.hit-content
+{
+	font-size:0.9em;
+}
+
+.hit-goog
+{
+	font-weight: bold;
+	vertical-align: top;
+	font-size:1.0em;
+	margin-left: 10px;
+}
+
+.hit-bar
+{
+	font-weight: normal;
+	vertical-align: top;
+	font-size:0.9em;
+
+}
+
+.hit-sign
+{
+	vertical-align: top; 
+	font-size:0.9em;
+	margin-left: 20px;
+	white-space: nowrap;
+}
+
+.hit-sign:link {color: #0000FF}
+.hit-sign:visited {color: #0000FF}
+.hit-sign:hover {color: #CC0000}
+
+.hit-link
+{
+	vertical-align: top; 
+	font-size:0.9em;
+	margin-left: 0px;
+	margin-right: 10px;
+	white-space: nowrap;
+}
+
+.hit-link:link {color: #0000FF}
+.hit-link:visited {color: #0000FF}
+.hit-link:hover {color: #CC0000}
+
+.hit-form
+{
+	width: 100%; 
+	border-width: 0px;
+	border-style: solid;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: white;
+	border-collapse: collapse;
+}
+
+.hit-form td.lt
+{
+	font-weight: normal;
+	font-size: .9em;
+	text-align: right;
+	border-width: 0px;
+	padding: 2px;
+	background-color: #ffffff;
+	vertical-align: middle;
+	white-space: nowrap;		
+}
+
+.hit-form td.rt
+{
+	font-weight: normal;
+	font-size: .9em;
+	text-align: left;
+	border-width: 0px;
+	padding: 2px;
+	background-color: #ffffff;	
+	vertical-align: middle;
+}
+
+.hit-form td.title
+{
+	font-weight: normal;
+	font-size: .9em;
+	text-align: center;
+}
+
+.hit-form td.msg
+{
+	font-weight: normal;
+	font-size: 1.0em;
+	text-align: center;
+}
+
+.hit-form td.rule
+{
+	font-weight: normal;
+	font-size: .8em;
+	text-align: left;
+	vertical-align: bottom;
+	line-height: .8em;
+}
+
+.hit-form td.but
+{
+	font-weight: normal;
+	font-size: 1.0em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.hit-form span.ex
+{
+	font-size: 0.8em;
+	margin-left: 5px;
+	white-space: nowrap;
+}
+
+.msgerr
+{
+	font-size: 0.9em;
+	color: red;
+	margin-bottom: 10px;
+}
+
+.errmark
+{
+	font-weight: bold;
+	font-size: 0.9em;
+	color: red;	
+}
+

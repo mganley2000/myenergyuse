@@ -1,0 +1,70 @@
+application: myenergyuse
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /favicon.ico
+  static_files: images/favicon.ico
+  upload: images/favicon.ico
+
+- url: /
+  script: main.py
+
+- url: /index\.html
+  script: main.py
+  
+- url: /charts
+  script: charts.py
+  login: required  
+  
+- url: /charts/(.*)/(.*)/(.*)/(.*)
+  script: charts.py
+
+- url: /gadget
+  script: gadget.py
+  login: required
+  
+- url: /gadget/(.*)/(.*)/(.*)/(.*)
+  script: gadget.py
+  
+- url: /widegadget
+  script: widegadget.py
+  login: required
+  
+- url: /widegadget/(.*)/(.*)/(.*)/(.*)
+  script: widegadget.py
+  
+- url: /chartsvc/(.*)/(.*)/(.*)/(.*)/(.*)
+  script: chartsvc.py  
+  
+- url: /default\.html
+  script: main.py
+
+- url: /notify
+  script: notify.py
+  login: required
+ 
+- url: /settings
+  script: settings.py
+  login: required
+  
+- url: /readingssvc
+  script: readingssvc.py
+  login: required
+
+- url: /css/(.*) 
+  static_files: css/\1 
+  upload: css/(.*) 
+
+- url: /images/(.*) 
+  static_files: images/\1 
+  upload: images/(.*) 
+
+- url: /admin/.*
+  script: admin.py
+  login: admin
+
+- url: /.*
+  script: not_found.py
+
