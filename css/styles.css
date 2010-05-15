@@ -1,3 +1,5 @@
+/* myenergyuse */
+
 body { font-family:Arial, Helvetica, sans-serif; color:#000; padding:0px; margin: 2px 2px 10px 2px; background-color: #ffffff; }
 
 #stats A:link {color: #0000FF}
@@ -60,7 +62,6 @@ body { font-family:Arial, Helvetica, sans-serif; color:#000; padding:0px; margin
 #normal .verNB10 { FONT: .8em Verdana,sans-serif; COLOR: #000000 }
 #normal .BigRedFont { FONT: .8em Arial,helvetica,sans-serif; COLOR: red }
 
-/* updated 4-2008 */
 h1, h2, h3, h4, h5, h6 { font-size:100%; color:#008521; padding:0 0 2px 0; margin:0px; font-weight:normal; }
 h1 { font-size:130%; font-weight:bold; display:inline; position:absolute; top:30px; left:176px; color:#666; width:650px; }
 h2 {font-size: 24px; color: #009900;}

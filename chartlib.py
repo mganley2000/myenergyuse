@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 #
 # Copyright 2010 myenergyuse
-# mganley2000@gmail.com
+# http://code.google.com/p/myenergyuse/
+# watchmyted - at- gmail.com
 #
 """ myenergyuse chart library of functions """
 

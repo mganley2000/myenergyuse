@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 #
-# Copyright 2009 myenergyuse
+# Copyright 2010 myenergyuse
+# http://code.google.com/p/myenergyuse/
+# watchmyted - at- gmail.com
 #
 """ Preferences """
 
